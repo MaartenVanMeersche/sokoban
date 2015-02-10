@@ -14,4 +14,10 @@ public class HelloWorld
     {
 	System.out.println("Hello World");
     }
+
+    public static String geefNaam()
+    {
+	String naam = String.format("Thomas");
+	return naam;
+    }
 }
